@@ -27,7 +27,7 @@ Esc	- Закрытие: 1-е нажатие закрывает меню паде
 🛠️ Установка и запуск<br>
 Убедитесь, что у вас установлен Python 3.10 или выше.<br>
 Клонируйте репозиторий:<br>
-git clone https://github.com/ваш_пользователь/ClipboardCopilot.gitcd ClipboardCopilot <br>
+git clone https://github.com/Tat25D/CopyPlus.git <br>
 Установите зависимости (рекомендуется использовать виртуальное окружение): 
 <code>
 pip install -r requirements.txt <br>
