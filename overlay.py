@@ -84,7 +84,7 @@ class ClipboardOverlay(QWidget, OverlayFocusEngineLogic, OverlayGeometryEngineLo
 
     def log_and_paste(self, text_val, label, word_data):
         cursor_pos = QCursor.pos()
-        print(Null) #(f"[CLICK_MENU_BUTTON] Button: '{label}' | Inserted text: '{text_val}' | X={cursor_pos.x()}, Y={cursor_pos.y()}", flush=True)
+        # print(f"[CLICK_MENU_BUTTON] Button: '{label}' | Inserted text: '{text_val}' | X={cursor_pos.x()}, Y={cursor_pos.y()}", flush=True)
         self.paste_text_caps_safe(text_val, word_data)
 
     def refresh_ui(self):
